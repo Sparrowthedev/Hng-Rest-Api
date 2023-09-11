@@ -21,7 +21,7 @@
 
 #  ` // Response`
 #    {
-#       "_id": ObjectId("64fed664160cdfdf8bc1a05d")  
+#       "_id": "64fed664160cdfdf8bc1a05d",
 #       "name": "Alice",
 #       "age": 25,
 #       "email": "example@gmail.com",
@@ -47,7 +47,7 @@
 
 #       `// Response`
 #    {
-#       "_id": ObjectId("64fed664160cdfdf8bc1a05d")  
+#       "_id": "64fed664160cdfdf8bc1a05d",  
 #       "name": "Alice",
 #       "age": 25,
 #       "email": "example@gmail.com",
@@ -75,7 +75,7 @@
 #       {
 #           "message": "Successfully updated",
 #           "newPerson": {
-#                   "_id": ObjectId("64fed664160cdfdf8bc1a05d")  
+#                   "_id": "64fed664160cdfdf8bc1a05d", 
 #                   "name": "Alice",
 #                    "age": 28,
 #                    "email": "example@gmail.com",
@@ -111,7 +111,8 @@
 #    - `PORT`: The port number for the server to listen on. For example, `PORT=5000`.
 #    - `MONGO_URI`: The connection string for MongoDB. For example, `MONGO_URI=mongodb://localhost:27017/persons`.
 # 5. locate `server.js` and uncomment `require('dotenv').config()`;
-# 6. run `nodemon server.js`;
+# 6. locate `db.js` and uncomment `require('dotenv').config()`;
+# 7. run `nodemon server.js`;
 
 # `Deploying API to live server` eg `Render`
 

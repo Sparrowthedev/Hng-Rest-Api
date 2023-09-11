@@ -21,7 +21,8 @@
 #    - `PORT`: The port number for the server to listen on. For example, `PORT=5000`.
 #    - `MONGO_URI`: The connection string for MongoDB. For example, `MONGO_URI=mongodb://localhost:27017/persons`.
 # 5. locate `server.js` and uncomment `require('dotenv').config()`.
-# 6. run `nodemon server.js` from the `terminal` or `command line`.
+# 6. locate `db.js` and uncomment `require('dotenv').config()`.
+# 7. run `nodemon server.js` from the `terminal` or `command line`.
 
 
 ## `Usage`

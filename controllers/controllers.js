@@ -16,6 +16,12 @@ const getPerson = async (req, res) => {
 
 const addPerson = async (req, res) => {
     try{
+        const name = req.body.name;
+        
+        if(name !== String){
+            throw Error(`Name must be a string`)
+        }
+
         const person = new Person(req.body);
 
         const savedPerson = await person.save();

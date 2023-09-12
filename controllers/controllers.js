@@ -2,7 +2,7 @@ const Person = require("../model/person")
 
 const getPerson = async (req, res) => {
     try{
-        const person = await Person.findOne({name: req.params.name});
+        const person = await Person.findOne({name: req.query.name});
         
         if(!person) {
             return res.status(404).json({message: 'Person not found'})
@@ -27,7 +27,7 @@ const addPerson = async (req, res) => {
 }
 const updatePerson = async (req, res) => {
     try{
-        const person = await Person.findOne({name: req.params.name});
+        const person = await Person.findOne({name: req.query.name});
 
         if(!person) {
             return res.status(404).json({message: 'Person not found'})
@@ -46,7 +46,7 @@ const updatePerson = async (req, res) => {
 
 const deletePerson = async (req, res) => {
     try{
-        const person = await Person.findOne({name: req.params.name})
+        const person = await Person.findOne({name: req.query.name})
 
         if(!person) {
             return res.status(404).json({message: 'Person not found'})

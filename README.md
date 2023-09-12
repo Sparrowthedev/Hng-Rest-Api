@@ -35,26 +35,12 @@
 #   // json
 #   {
 #        "name": "Alice",
-#       "age": 25,
-#        "email": "example@gmail.com",
-#       "occupation": "Hair Dresser",
-#       "gender": "F",
-#       "country": "Nigeria",
-#       "hobbies": ["Reading", "Cooking"],
 #   }
 
 #   // Response
 #    {
-#       "_id": ObjectId("64fed664160cdfdf8bc1a05d")  
+#       "_id": "64fed664160cdfdf8bc1a05d",  
 #       "name": "Alice",
-#       "age": 25,
-#       "email": "example@gmail.com",
-#       "occupation": "Hair Dresser",
-#       "gender": "F",
-#       "country": "Nigeria",
-#       "hobbies": ["Reading", "Cooking"], 
-#       "createdAt": "2023-09-11T08:57:08.894+00:00",
-#       "updatedAt":"2023-09-11T09:58:54.875+00:00",
 #   }
 
 # Note: The `hobbies` property is of type `Array`
@@ -71,16 +57,8 @@
 
 #       // Response
 #    {
-#       "_id": ObjectId("64fed664160cdfdf8bc1a05d")  
+#       "_id": "64fed664160cdfdf8bc1a05d", 
 #       "name": "Alice",
-#       "age": 25,
-#       "email": "example@gmail.com",
-#       "occupation": "Hair Dresser",
-#       "gender": "F",
-#       "country": "Nigeria",
-#       "hobbies": ["Reading", "Cooking"], 
-#       "createdAt": "2023-09-11T08:57:08.894+00:00",
-#       "updatedAt":"2023-09-11T09:58:54.875+00:00",
 #   }
         
 
@@ -92,23 +70,15 @@
 
 #   Request body
 #       {
-#           "age": 28
+#           "name": "Mary"
 #       }
 
 #       // Response
 #       {
 #           "message": "Successfully updated",
 #           "newPerson": {
-#                   "_id": ObjectId("64fed664160cdfdf8bc1a05d")  
-#                   "name": "Alice",
-#                    "age": 28,
-#                    "email": "example@gmail.com",
-#                    "occupation": "Hair Dresser",
-#                    "gender": "F",
-#                    "country": "Nigeria",
-#                    "hobbies": ["Reading", "Cooking"], 
-#                    "createdAt": "2023-09-11T08:57:08.894+00:00",
-#                    "updatedAt":"2023-09-11T09:58:54.875+00:00",
+#                   "_id": "64fed664160cdfdf8bc1a05d",  
+#                   "name": "Mary",
 #                    }
 #        }
 

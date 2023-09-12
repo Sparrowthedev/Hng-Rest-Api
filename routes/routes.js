@@ -6,10 +6,10 @@ const router = express.Router()
 
 router.post('/persons', addPerson);
 
-router.get('/persons/:name', getPerson);
+router.get('/persons', getPerson);
 
-router.put('/persons/:name', updatePerson);
+router.put('/persons', updatePerson);
 
-router.delete('/persons/:name', deletePerson)
+router.delete('/persons', deletePerson)
 
 module.exports = router;
